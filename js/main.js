@@ -1,6 +1,6 @@
 'use strict';
 
-const results = ['ExcelLent!','Good!','Not So Bad','Bad']
+const results = ['Excellent!','Good!','Not So Bad','Bad']
 
 
 {
