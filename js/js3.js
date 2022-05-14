@@ -38,7 +38,9 @@
  
     removeAllChildren(tweetDivided);
     const anchor = document.createElement('a');
-    const hrefValue = "https://twitter.com/intent/tweet?button_hashtag=あなたを癒すペットは？&ref_src=twsrc%5Etfw";
+    const hrefValue =  "https://twitter.com/intent/tweet?button_hashtag=あなたを癒すペットは？&text="
+    +encodeURIComponent(result);
+    
     anchor.setAttribute('href',hrefValue);
     anchor.className ="twitter-hashtag-button";
     anchor.innerText = "Tweet '#あなたを癒すペットは？";
